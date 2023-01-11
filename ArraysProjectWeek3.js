@@ -29,7 +29,15 @@ console.log(sum / ages.length);
 
 let names = ['Sam', 'Tommy', 'Tim', 'Sally', 'Buck', 'Bob']
 
+console.log(names);
+
 // 2a.	Use a loop to iterate through the array and calculate the average number of letters per name.
+
+
+
+
+
+
 
 // 3.	How do you access the last element of any array?
 // using the index arrayName[arrayName.length-1]
