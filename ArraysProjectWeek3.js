@@ -124,14 +124,16 @@ for (let i = 0; i < arr1.length; i++){
     console.log("Sum", typeof sum2, "index", i, "element", arr1[i]);
 }
 
-let sum3 = 0;
+    let sum3 = 0;
 
 for (let i = 0; i < arr2.length; i++){
     sum3 += arr2[i]; //adding elements of array
-    console.log("Sum test 2", sum3, i);
+    console.log("Sum", typeof sum3, "index", i, "element", arr2[i]);
 }
-    console.log(sum2/arr1.length > sum3/arr2.length);
-   console.log(sum2/arr1.length);
+    console.log("Average One", sum2/arr1.length);
+    console.log("Average Two", sum3/arr2.length);
+    console.log("Avg 1 greater than Avg 2?", sum2/arr1.length > sum3/arr2.length);
+    
     }
 
 
